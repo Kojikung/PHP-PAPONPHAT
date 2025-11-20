@@ -99,7 +99,7 @@ if(empty($_SESSION['username'])) {
                         <i class="bi bi-person-circle me-1"></i> 
                         <?php echo $_SESSION['fullname']; ?>
                     </span>
-                    <a href="logout.php" class="btn-logout">
+                    <a href="../logout.php" class="btn-logout">
                         <i class="bi bi-box-arrow-right"></i> Logout
                     </a>
                 </div>
@@ -139,4 +139,5 @@ if(empty($_SESSION['username'])) {
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
